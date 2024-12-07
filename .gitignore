@@ -1,0 +1,56 @@
+# Ignore build and IDE files
+.classpath
+.project
+.settings/
+target/
+bin/
+build/
+out/
+
+# Ignore Maven-specific files
+/.mvn/
+/.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+
+# Ignore STS-specific files
+/.metadata/
+/.apt_generated/
+/.factorypath
+
+# Ignore version control files
+*.orig
+*.rej
+*.patch
+*.diff
+
+# Ignore other user-specific files
+*.iml
+*.ipr
+*.iws
+
+# Ignore any sensitive files
+config.properties
+credentials.properties
+
+# Ignore coverage and testing artifacts
+/coverage-reports/
+/test-output/
+*.eml

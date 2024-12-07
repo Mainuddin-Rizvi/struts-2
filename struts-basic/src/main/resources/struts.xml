@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "file:/C:/Users/Acer/Desktop/struts/struts-basic/src/main/resources/dtds/struts-2.5.dtd">
+
+<struts>
+    <!-- Enable development mode for detailed logs -->
+    <constant name="struts.devMode" value="true" />
+
+    <!-- Define a package for this Struts application -->
+    <package name="basicstruts2" extends="struts-default">
+        <!-- Map action name to view -->
+        <action name="index">
+            <result>/index.jsp</result>
+        </action>
+    </package>
+</struts>
