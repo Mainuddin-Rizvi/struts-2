@@ -13,5 +13,9 @@
         <action name="hello" class="com.strutsguide.hello.action.HelloWorldAction" method="execute">
             <result name="success">/HelloWorld.jsp</result>
         </action>
+        
+        <action name="register" class="com.strutsguide.hello.action.Register" method="execute">
+    		<result name="success">/thankyou.jsp</result>
+		</action>
     </package>
 </struts>
