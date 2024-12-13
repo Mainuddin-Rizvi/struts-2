@@ -1,4 +1,4 @@
-package com.strutsguide.hello.model;
+package com.strutsguide.hello.register.model;
 
 public class Person {
     private String firstName;

@@ -1,4 +1,4 @@
-package com.strutsguide.hello.model;
+package com.strutsguide.hello.helloworld.model;
 
 public class MessageStore {
     private String message;

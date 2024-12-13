@@ -1,7 +1,6 @@
-package com.strutsguide.hello.action;
+package com.strutsguide.hello.register.action;
 import com.opensymphony.xwork2.ActionSupport;
-import com.strutsguide.hello.model.Person;
-
+import com.strutsguide.hello.register.model.Person;
 public class Register extends ActionSupport {
     
     private static final long serialVersionUID = 1L;
